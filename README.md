@@ -12,12 +12,18 @@ Requisitos
 Variáveis
 --------------
 
- * A completar
+ | Var | Desc |
+ |:----- |-----|
+ | TIKA_VERSION | Versão do Tika Server para ser instalada |
+
+ * Em Andamento
 
 Dependências
 ------------
 
- * A completar
+ - Ubuntu 18.04
+
+ * Em andamento 
 
 Testes
 ----------
