@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include iac-role-services"
+      include_role:
+        name: "iac-role-services"
