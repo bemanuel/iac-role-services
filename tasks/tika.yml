@@ -4,7 +4,9 @@
     name: openjdk-11-jre-headless
     state: present
     update_cache: yes
-- name: Instala GPG
-  gpg:
+
+- name: Instala GnuPG
+  apt:
+    name: gnupg2
     state: present
     update_cache: yes
