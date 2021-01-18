@@ -1,2 +1,4 @@
 ---
 # tasks file for iac-role-services 
+- include_tasks: requirements.yml
+- include_tasks: tika.yml
